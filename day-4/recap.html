@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-4 date 09/11/2023 (recap)</title>
+  </head>
+  <body>
+    <!-- 
+    Variable 
+    Statement
+    Loop
+    Function
+    Array
+    Object
+    -->
+    <script>
+      //  Varibale
+      // var myName = "Shimu";
+      // let myName = "Shimu"
+      const myName = "Shimu";
+      // document.write(myName);
+      // Math operation
+      // + , - , * , /
+      // Shorthand operation
+      // +=, -- , *= , /=
+      // Array
+      var riyaFriends = ["Rumu", "Jumu", "Shimu", "Jui", "Sadiya"];
+      riyaFriends[3] = "Riya";
+      // document.write(riyaFriends);
+      // Some Conditionals
+      // >, <, >= , <= , ==, ===, != , !==
+      if (riyaFriends.length <= 4) {
+        // document.write("Na go boin tor friendship bala nay.");
+      } else {
+        // document.write("Na go boin tor friendship bala ace");
+      }
+      // Object
+      var shimuInfo = {
+        Name: "Radiya Ahther Shimu",
+        Height: 5,
+      };
+      // document.write(shimuInfo["Name"]);
+
+      // takaToDollar
+      // Dhori 1 dollar = 100 tk
+
+      var shimuTaka = 20000;
+      var shimuDollar = shimuTaka / 100;
+      // document.write("Ami boro luk tai amer dollar base = ", shimuDollar, "$");
+
+      var arafatTaka = 200;
+      var arafatDollar = arafatTaka / 100;
+      // document.write("Tmi miya gorib = ", arafatDollar, "$");
+
+      var arifTaka = "30000";
+      var arifDolllar = arifTaka / 100;
+      // document.write("Shuto miya poyasa basi reba =", arifDolllar, "$");
+
+      // Function
+      function takaToDollar(taka) {
+        var dollar = taka / 100;
+        return dollar;
+      }
+      var shimuTaka = 20000;
+      var shimuDollar = takaToDollar(shimuTaka);
+      document.write("Ami boro luk tai amer dollar base = ", shimuDollar, "$");
+
+      var arafatTaka = 200;
+      var arafatDollar = takaToDollar(arafatTaka);
+       document.write("Tmi miya gorib = ", arafatDollar, "$");
+    </script>
+  </body>
+</html>
