@@ -13,7 +13,5 @@ function cal() {
   }
   if (oper === "/") {
     document.getElementById("result").value = n1 / n2;
-  } else {
-    document.getElementById("result").value = "Type Number";
   }
 }
